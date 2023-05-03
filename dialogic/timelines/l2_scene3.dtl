@@ -1,7 +1,7 @@
 As soon as I arrive, I spot a few cars that are clearly not in my price range. Nonetheless, I can't take my eyes off some of them.\
-The package is getting heavier and I wonder if I should put it down. #id:46
-- I put down the package #id:47
-	As soon as I put it down, I felt somewhat freer and stretch a bit. #id:48
+The package is getting heavier and I wonder if I should put it down. #id:4e
+- I put down the package #id:4f
+	As soon as I put it down, I felt somewhat freer and stretch a bit. #id:50
 	VAR {location2.packet_dropped} = "true"
-- I keep the package in my arms #id:49
-	I decide to continue carrying the package to prevent myself or someone else from tripping over it. #id:4a
+- I keep the package in my arms #id:51
+	I decide to continue carrying the package to prevent myself or someone else from tripping over it. #id:52

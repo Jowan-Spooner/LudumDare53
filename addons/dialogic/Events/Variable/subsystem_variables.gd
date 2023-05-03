@@ -14,10 +14,10 @@ signal variable_was_set(info:Dictionary)
 
 func clear_game_state():
 	# loading default variables
-	dialogic.current_state_info['variables'] = DialogicUtil.get_project_setting('dialogic/variables', {})
+	dialogic.current_state_info['variables'] = ProjectSettings.get_setting('dialogic/variables', {})
 
 func load_game_state():
-	dialogic.current_state_info['variables'] = merge_folder(dialogic.current_state_info['variables'], DialogicUtil.get_project_setting('dialogic/variables', {}))
+	dialogic.current_state_info['variables'] = merge_folder(dialogic.current_state_info['variables'], ProjectSettings.get_setting('dialogic/variables', {}))
 
 
 func merge_folder(new, defs) -> Dictionary:
@@ -79,10 +79,9 @@ func set_variable(variable_name: String, value: Variant) -> bool:
 		variable_changed.emit({'variable':variable_name, 'new_value':value})
 	
 	elif variable_name in dialogic.current_state_info['variables'].keys():
-		if typeof(dialogic.current_state_info['variables'][variable_name]) == TYPE_STRING:
-			dialogic.current_state_info['variables'][variable_name] = value
-			variable_changed.emit({'variable':variable_name, 'new_value':value})
-			return true
+		dialogic.current_state_info['variables'][variable_name] = value
+		variable_changed.emit({'variable':variable_name, 'new_value':value})
+		return true
 	else:
 		printerr("Dialogic: Tried accessing non-existant variable '"+variable_name+"'.")
 	return false

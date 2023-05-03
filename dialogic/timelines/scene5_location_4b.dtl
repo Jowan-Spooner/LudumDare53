@@ -1,29 +1,29 @@
-mc: I am actually glad that I don't have to carry the big package anymore, but only the gift and the attached card. That makes things much easier! #id:9d
-mc: Slowly but surely, I approach the address. I hear children's laughter, but also a few screams of joy. Children can be very peculiar at times. #id:9e
+mc: I am actually glad that I don't have to carry the big package anymore, but only the gift and the attached card. That makes things much easier! #id:aa
+mc: Slowly but surely, I approach the address. I hear children's laughter, but also a few screams of joy. Children can be very peculiar at times. #id:ab
 mc: After I reaching the house, I see how much it is decorated.\
-Children are running around, but one of the them looks particularly sad and is standing around watching the others. #id:9f
+Children are running around, but one of the them looks particularly sad and is standing around watching the others. #id:ac
 Join girl (confused) 3
-mc: I approach the girl who looks at me questioningly. #id:a0
-girl: „So, I don't know you.“ #id:a1
-mc: „I'm {mc}. I'm here because I have a very important delivery for the birthday girl!“ #id:a2
-girl (excited): „I'm the birthday girl, I'm Lara and I became 7 years old today.“ #id:a3
-mc: Proudly, the girl raises her hands to show the number on her fingers. Instantly, she looks at the gift and seems very excited. #id:a4
-mc: „Your uncle and aunt both wanted me to deliver this to you, and your uncle even sent a card  along with it.“ #id:a5
-girl (default): „As long as he comes, it's not a problem!“ #id:a6
-girl (confused): „Is this... the present they got for me?“ #id:a7
-mc: I see how the girl keeps looking at the wrapped gift and hand her the package as well as the card. #id:a8
-girl (excited): „Thank you so much! You saved my birthday!“ #id:a9
+mc: I approach the girl who looks at me questioningly. #id:ad
+girl: „So, I don't know you.“ #id:ae
+mc: „I'm {mc}. I'm here because I have a very important delivery for the birthday girl!“ #id:af
+girl (excited): „I'm the birthday girl, I'm Lara and I became 7 years old today.“ #id:b0
+mc: Proudly, the girl raises her hands to show the number on her fingers. Instantly, she looks at the gift and seems very excited. #id:b1
+mc: „Your uncle and aunt both wanted me to deliver this to you, and your uncle even sent a card  along with it.“ #id:b2
+girl (default): „As long as he comes, it's not a problem!“ #id:b3
+girl (confused): „Is this... the present they got for me?“ #id:b4
+mc: I see how the girl keeps looking at the wrapped gift and hand her the package as well as the card. #id:b5
+girl (excited): „Thank you so much! You saved my birthday!“ #id:b6
 mc: The girl hurries to unwrap the present, and a teddy bear comes into view which she hugs tightly.\
-It doesn't take long before she runs off and is more excited than any other child. I am very happy to see her like that, and don't regret taking the package from Miu. #id:aa
-girl (teddy): „Come with me, my new best friend!“
+It doesn't take long before she runs off and is more excited than any other child. I am very happy to see her like that, and don't regret taking the package from Miu. #id:b7
+girl (teddy): „Come with me, my new best friend!“ #id:b8
 Join neighbor 1
-neighbor (happy): „Isn't that you, {mc}?“ #id:ab
-mc: „Miu, what are you doing here?“ #id:ac
-neighbor (shy): „I t- t- told you I was invited to a birthday party. And you? Did you succeed with the package?“ #id:ad
-mc: I nod and suddenly hear a honk. I look with Miu to the entrance and see the vendor getting out of my car. I can also see Boris. He goes straight to Lara who greets him. #id:ae
-mc: I shake my head and smile. #id:af
-neighbor: „Wait, does that mean... Oh no, I'm so sorry, {mc}, I didn't know...“ #id:b0
-mc: „Don't worry. Today, at least, I wasn't bored. And you know what? I think we can definitely do things together more often and solve your problem with your ex.“ #id:b1
-mc: I don't know why, but I have the feeling that something has changed in me through this small delivery, and I want to continue this change! #id:b2
-mc: The only thing I would still like to avoid is buying a car from that sleazy car dealer. It's constantly breaking down! #id:b3
+neighbor (happy): „Isn't that you, {mc}?“ #id:b9
+mc: „Miu, what are you doing here?“ #id:ba
+neighbor (shy): „I t- t- told you I was invited to a birthday party. And you? Did you succeed with the package?“ #id:bb
+mc: I nod and suddenly hear a honk. I look with Miu to the entrance and see the vendor getting out of my car. I can also see Boris. He goes straight to Lara who greets him. #id:bc
+mc: I shake my head and smile. #id:bd
+neighbor: „Wait, does that mean... Oh no, I'm so sorry, {mc}, I didn't know...“ #id:be
+mc: „Don't worry. Today, at least, I wasn't bored. And you know what? I think we can definitely do things together more often and solve your problem with your ex.“ #id:bf
+mc: I don't know why, but I have the feeling that something has changed in me through this small delivery, and I want to continue this change! #id:c0
+mc: The only thing I would still like to avoid is buying a car from that sleazy car dealer. It's constantly breaking down! #id:c1
 [signal arg="end"]

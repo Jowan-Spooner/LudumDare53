@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://dn8wkiqls3x25"]
+[gd_scene load_steps=11 format=3 uid="uid://c7p4jshl8wsjl"]
 
 [ext_resource type="Script" path="res://script/main.gd" id="1_6wtgq"]
 [ext_resource type="FontFile" uid="uid://v8wwvuijl17k" path="res://Rakoon_PersonalUse.ttf" id="2_71r32"]
@@ -95,8 +95,6 @@ layout_mode = 2
 
 [node name="credit" parent="." instance=ExtResource("4_pxa1v")]
 visible = false
-layout_mode = 2
-anchors_preset = 0
 
 [node name="settings" parent="." instance=ExtResource("3_ows2v")]
 visible = false

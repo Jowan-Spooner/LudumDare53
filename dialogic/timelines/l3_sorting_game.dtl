@@ -1,15 +1,14 @@
 if {location3.sorting_game_played} == "true":
 	Join barkeeper (freundlich) 3
-	barkeeper: „Thank you. It looks much better now!“
+	barkeeper: „Thank you. It looks much better now!“ #id:8d
 	[end_timeline]
 if {location3.barkeeper_first} == "true":
 	Join barkeeper (angry) 3
-	barkeeper (angry): "Hey don't touch my stuff!" #id:82
+	barkeeper (angry): "Hey don't touch my stuff!" #id:8e
 elif {location3.barkeeper_first} == "false":
-	mc: Maybe he will talk to me when I help him. #id:83
-	mc: "Hey Boris can I help you out by sorting the shelf?" #id:84
+	mc: Maybe he will talk to me when I help him. #id:8f
+	mc: "Hey Boris can I help you out by sorting the shelf?" #id:90
 	Join barkeeper 3
-	barkeeper: "Fine. If you sort them properly, I might be willing to help you." #id:85
+	barkeeper: "Fine. If you sort them properly, I might be willing to help you." #id:91
 	Leave barkeeper
 	[signal arg="sorting_game"]
-

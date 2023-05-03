@@ -1,5 +1,5 @@
-After taking a few steps towards the package and examining it more closely, I discover that it's ripped open and contains a gift. After carefully examining the package, I'm able to decipher the address and recipient name. #id:29
-mc: „Oh, Ak…b..n... oh, this is surely for Mrs. Akoban. Since I have nothing to do today, I can bring it to her right away." #id:2a
-I pick up the package and set off. I'm sure I can bring some joy to my neighbor. After the breakup with her ex, he seemed to retaliate with childish behavior by not delivering her mail properly. #id:2b
+After taking a few steps towards the package and examining it more closely, I discover that it's ripped open and contains a gift. After carefully examining the package, I'm able to decipher the address and recipient name. #id:2d
+mc: „Oh, Ak…b..n... oh, this is surely for Mrs. Akoban. Since I have nothing to do today, I can bring it to her right away." #id:2e
+I pick up the package and set off. I'm sure I can bring some joy to my neighbor. After the breakup with her ex, he seemed to retaliate with childish behavior by not delivering her mail properly. #id:2f
 VAR {location1.paket_picket} = "true"
 [signal arg="packet_picked"]

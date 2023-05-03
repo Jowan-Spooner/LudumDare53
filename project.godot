@@ -23,10 +23,10 @@ Globals="*res://script/globals.gd"
 [dialogic]
 
 editor/character_preview_mode=0
-editor/current_editor=&"Timeline Editor"
+editor/current_editor=&"Settings"
 editor/current_resources={
 "Character Editor": "res://dialogic/characters/best_friend/best_friend.dch",
-"Timeline Editor": "res://dialogic/timelines/l1_scene2.dtl"
+"Timeline Editor": "res://dialogic/timelines/name.dtl"
 }
 editor/last_resources=PackedStringArray("res://dialogic/characters/girl/girl.dch", "res://dialogic/characters/mc/mc.dch", "res://dialogic/characters/neighbor/neighbor.dch", "res://dialogic/characters/seller/seller.dch", "res://dialogic/characters/barkeeper/barkeeper.dch", "res://dialogic/characters/best_friend/best_friend.dch", "res://dialogic/timelines/l1_paket.dtl", "res://dialogic/timelines/l1_scene1b.dtl", "res://dialogic/timelines/l1_bin.dtl", "res://dialogic/timelines/l1_door.dtl", "res://dialogic/timelines/l1_fence.dtl", "res://dialogic/timelines/l1_letterbox.dtl", "res://dialogic/timelines/l1_scene1.dtl", "res://dialogic/timelines/l1_scene2.dtl", "res://dialogic/timelines/l2_scene3.dtl", "res://dialogic/timelines/scene5_location_4a.dtl", "res://dialogic/timelines/l4_intro.dtl", "res://dialogic/timelines/scene5_location_4b.dtl", "res://dialogic/timelines/name.dtl", "res://dialogic/timelines/l2_scene3b.dtl", "res://dialogic/timelines/l3_scene4.dtl", "res://dialogic/timelines/l3_sorting_game.dtl", "res://dialogic/timelines/l3_placeholder.dtl", "")
 editor/last/resources=["res://dialogic/characters/girl/girl.dch", "res://dialogic/characters/mc/mc.dch", "res://dialogic/characters/neighbor/neighbor.dch", "res://dialogic/characters/seller/seller.dch", "res://dialogic/characters/barkeeper/barkeeper.dch", "res://dialogic/characters/best_friend/best_friend.dch", "res://dialogic/timelines/l1_paket.dtl", "res://dialogic/timelines/l1_scene1b.dtl", "res://dialogic/timelines/l1_bin.dtl", "res://dialogic/timelines/l1_door.dtl", "res://dialogic/timelines/l1_fence.dtl", "res://dialogic/timelines/l1_letterbox.dtl", "res://dialogic/timelines/l1_scene1.dtl", "res://dialogic/timelines/l1_scene2.dtl", "res://dialogic/timelines/l2_scene3.dtl", "res://dialogic/timelines/scene5_location_4a.dtl", "res://dialogic/timelines/l4_intro.dtl", "res://dialogic/timelines/scene5_location_4b.dtl", "res://dialogic/timelines/name.dtl", "res://dialogic/timelines/l2_scene3b.dtl", "res://dialogic/timelines/l3_scene4.dtl", "res://dialogic/timelines/l3_sorting_game.dtl", "res://dialogic/timelines/l3_placeholder.dtl"]
@@ -44,7 +44,7 @@ text/autopauses={}
 layout/mode=1
 layout/layout_scene="res://dialogic/style/DialogicLayout.tscn"
 editor/visual_timeline_editor_sidebar=200.0
-editor/current_timeline_path="res://dialogic/timelines/l1_scene2.dtl"
+editor/current_timeline_path="res://dialogic/timelines/name.dtl"
 glossary/default_case_sensitive=true
 variables={
 "auto": "false",
@@ -76,6 +76,8 @@ translation/enabled=true
 translation/original_locale="en"
 translation/file_mode=0
 translation/translation_folder="res://dialogic/translation"
+translation/id_counter=193
+text/autoadvance_delay=1.0
 
 [display]
 
