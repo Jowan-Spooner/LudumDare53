@@ -1,37 +1,36 @@
 if {location2.completed} != "true":
-	mc: I decided to approach the bartender and ask for Mr. Akuban. The closer I got to the counter, the more unsure I became.
+	mc: I decided to approach the bartender and ask for Mr. Akuban. The closer I got to the counter, the more unsure I became. #id:75
 	Join barkeeper 3
-	barkeeper: „We have not opened yet. Come back later..“
+	barkeeper: „We have not opened yet. Come back later..“ #id:76
 	[signal arg="closed"]
 	[end_timeline]
 if {location3.barkeeper_first} == "true":
-	mc: I decided to approach the bartender and ask for Mr. Akuban. The closer I got to the counter, the more unsure I became. #id:6d
+	mc: I decided to approach the bartender and ask for Mr. Akuban. The closer I got to the counter, the more unsure I became. #id:77
 	Join barkeeper 3
-	barkeeper: „Shut up, Ciper, drink your crap and get lost.“ #id:6e
-	mc: The bartender shouts, and I flinched slightly. I sit down at the bar and plac the package as close to me as possible. #id:6f
-	barkeeper: „What do you want here, kiddo??“ #id:70
-	mc: „I'm looking for a Mr. Akuban... so...“ #id:71
-	mc: I got interrupted as the bartender looks at me with a cold and downright creepy gaze. #id:72
-	barkeeper (angry): „Get out of here, you have no business here.“ #id:73
-	mc: I quickly realize that he doesn't want to talk to me. So I have to make sure he will talk to me! #id:74
+	barkeeper: „Shut up, Ciper, drink your crap and get lost.“ #id:78
+	mc: The bartender shouts, and I flinched slightly. I sit down at the bar and plac the package as close to me as possible. #id:79
+	barkeeper: „What do you want here, kiddo??“ #id:7a
+	mc: „I'm looking for a Mr. Akuban... so...“ #id:7b
+	mc: I got interrupted as the bartender looks at me with a cold and downright creepy gaze. #id:7c
+	barkeeper (angry): „Get out of here, you have no business here.“ #id:7d
+	mc: I quickly realize that he doesn't want to talk to me. So I have to make sure he will talk to me! #id:7e
 	VAR {location3.barkeeper_first} = "false"
 	[end_timeline]
 if {location3.sorting_game_played} != "true":
-	barkeeper (angry): „Get lost." #id:80
+	barkeeper (angry): „Get lost." #id:7f
 	[end_timeline]
 # Minigame played
-mc: Mr. Akuban seems much friendlier all of a sudden after I made an effort to show him that I am serious. #id:75
-barkeeper (freundlich): „They call me Boris here. Drop the 'Mister' What do you want, kiddo?“ #id:76
-mc: „I'm here because of the package, it's for you..“ #id:77
-mc: I push the package over to him and after he had inspected and unpacked it, he looks at me for a while. Finally, he slams his hand on the counter, which completely confuses me. #id:78
-barkeeper (angry): „Damn witch! Wait a minute.“ #id:79
-mc: He says and disappears shortly after. After he come back, he has a small card and a note with him. The note has an address and directions, while the card is clearly a birthday card. #id:7a
-barkeeper (freundlich): „I would be very grateful if you could bring my niece's gift. Actually, I didn't want to take the witch's gift, but since you made an effort to earn my respect, I'll turn a blind eye." #id:7b
-mc: He seemed sulky, but continues speaking. #id:7c
-barkeeper: „My niece has her birthday today... please let her know that I'll come by later. Unfortunately, I have to stay in this place longer today.“ #id:7d
-mc: I am surprised by his words and couldn't possibly refuse.
-Boris isn't a bad guy, and since I had already taken the whole way, I might as well go the last few meters. #id:7e
-I pack the gift and the card and say goodbye to the group. #id:7f
+mc: Mr. Akuban seems much friendlier all of a sudden after I made an effort to show him that I am serious. #id:80
+barkeeper (freundlich): „They call me Boris here. Drop the 'Mister' What do you want, kiddo?“ #id:81
+mc: „I'm here because of the package, it's for you..“ #id:82
+mc: I push the package over to him and after he had inspected and unpacked it, he looks at me for a while. Finally, he slams his hand on the counter, which completely confuses me. #id:83
+barkeeper (angry): „Damn witch! Wait a minute.“ #id:84
+mc: He says and disappears shortly after. After he come back, he has a small card and a note with him. The note has an address and directions, while the card is clearly a birthday card. #id:85
+barkeeper (freundlich): „I would be very grateful if you could bring my niece's gift. Actually, I didn't want to take the witch's gift, but since you made an effort to earn my respect, I'll turn a blind eye." #id:86
+mc: He seemed sulky, but continues speaking. #id:87
+barkeeper: „My niece has her birthday today... please let her know that I'll come by later. Unfortunately, I have to stay in this place longer today.“ #id:88
+mc: I am surprised by his words and couldn't possibly refuse. #id:89
+Boris isn't a bad guy, and since I had already taken the whole way, I might as well go the last few meters. #id:8a
+I pack the gift and the card and say goodbye to the group. #id:8b
 Leave barkeeper
 [signal arg="goodbye"]
-

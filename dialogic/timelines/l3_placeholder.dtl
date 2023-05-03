@@ -1,4 +1,4 @@
 WIP\
-(You won the sorting game) #id:6c
+(You won the sorting game) #id:74
 VAR {location 4.sorting_game_played} = "true"
 [signal arg="exit"]

@@ -1,174 +1,195 @@
-keys,en,de
-Text/11/text,There is nothing special in the trash can.
-Text/12/text,"There is nothing special in the trash can, but the sound seems to be coming from behind it."
-Text/13/text,"„The sound comes from outside."""
-Text/14/text,The gate is locked.
-Text/15/text,The gate is locked.
-Text/16/text,"„The noise doesn't seem to come from there anyway."""
-Text/17/text,"„She should be at home. I prefer to give it to her personally."""
-Text/18/text,"„The sound is not coming from here."""
-Text/19/text,"„Hey, I'm in a hurry. Just a moment."""
-Text/1a/text,"I'm on the phone with my best friend. We wanted to go for a walk in the city today and talk a bit. As I leave the apartment complex, I hear a strange noise."
-Text/1b/text,"„I'm sorry, but I can't make it today. I just received a visit from my parents. We will have to postpone it until next time."""
-Text/1c/text,I bite my lip. This is the third time now that my best friend has canceled. I want to say something...but we're best friends!
-Choice/1d/text,But I have to say something!
-Choice/1d/disabled_text,
-Text/1e/text,"„Uh, do you know..."""
-Text/1f/text,"„Yes, I'll be right there! What's the matter, {mc}?"""
-Text/20/text,I sigh softly and shake my head.
-Text/21/text,"„No, no... all good."""
-Choice/22/text,I choose to remain silent.
-Choice/22/disabled_text,
-Text/23/text,"„I'm really sorry, but tomorrow is definitely the day!"""
-Text/24/text,"I hear that she's sorry, but I still hesitate. Tomorrow, I was actually planning to take a break and have some time for myself..."
-Text/25/text,"„Alright then, see you tomorrow!"""
-Text/26/text,"„Yes, then tomorrow. Well, have a good time today!"""
-Text/27/text,"I agree hurriedly and after a brief farewell, I feel a bit frustrated. Strange noises don't improve my mood, and I turn in the direction they're coming from."
-Text/28/text,"„What is that?"""
-Text/29/text,"After taking a few steps towards the package and examining it more closely, I discover that it's ripped open and contains a gift. After carefully examining the package, I'm able to decipher the address and recipient name."
-Text/2a/text,"„Oh, Ak…b..n... oh, this is surely for Mrs. Akoban. Since I have nothing to do today, I can bring it to her right away."""
-Text/2b/text,"I pick up the package and set off. I'm sure I can bring some joy to my neighbor. After the breakup with her ex, he seemed to retaliate with childish behavior by not delivering her mail properly."
-Text/2c/text,"„Hello {mc}, nice to see you. Since when do you deliver packages?“"
-Text/2d/text,"I notice how she glances at the package and is visibly surprised. As soon as we make brief eye contact, she turns away hurriedly and tries to look at the package."
-Text/2e/text,"„Hi Miu, the package is for you. It was by the trash cans...“"
-Text/2f/text,I explain slowly and see how she hesitantly approaches. She takes the package and looks at the address before shaking her head and peering inside.
-Text/30/text,"„That's not mine. I think it belongs to Mr. Akuban. He moved away quite some time ago, and there have been mix-ups with our last names before.“"
-Text/31/text,I nod slowly in understanding and have to strain myself to continue listening to her. She always speaks a little quieter than the others.
-Text/32/text,„Then you can probably bring it to him. I don't know him..“
-Text/33/text,My neighbor shook her head.
-Text/34/text,"„I'd like to, but I don't know anything more than his last name. But it would be a shame if he didn't get his package today..."""
-Text/35/text,„I heard his wife left him... Maybe I shouldn't go to the birthday party today and try to find him instead..“
-Choice/36/text,"I could take care of it. After all, I don't have anything planned."
-Choice/36/disabled_text,
-Choice/37/text,I don't actually plan on delivering the package.
-Choice/37/disabled_text,
-Text/38/text,It's better if I slowly withdraw.
-Text/39/text,"„Miu, I have to go now.“"
-Text/3a/text,"„O- o- of course, see you later, {mc}.“"
-Text/3b/text,"I see Miu weakly lift her hand, take out her phone and start typing. She's clearly down, and I feel very guilty."
-Text/3c/text,I turn around and ball my fists. Miu has been through enough. She should think of herself today.
-Text/3d/text,"I turn around and walk towards Miu, who blinks in surprise."
-Text/3e/text,"„Leave it to me. I have nothing planned today, and if he's that well-known, it should be possible to find him quickly.“"
-Text/3f/text,Miu beams from ear to ear.
-Text/40/text,"„Thank you so much, {mc}. I heard an old friend of his sells cars on Lessingstraße. Maybe he can help you more. But is this really okay for you?“"
-Text/41/text,"„Yes, of course. ""I'll go now.“"
-Text/42/text,"I take the package back and feel her touch my arm gently. I look up at her, and she quickly withdraws her hand."
-Text/43/text,„I'm sorry for burdening you with this. I know you're busy too.“
-Text/44/text,I smile gratefully and walk away.
-Text/45/text,"It's always clear to me that Miu is a very attentive person. That's why I don't want to burden her with anything more. She's always considerate of others, and today she deserves to have a nice day. Actually, I can't take much off her plate, even though she's always so accommodating as a neighbor. Delivering a package is an easy task, after all."
-Text/46/text,"As soon as I arrive, I spot a few cars that are clearly not in my price range. Nonetheless, I can't take my eyes off some of them.
-The package is getting heavier and I wonder if I should put it down."
-Choice/47/text,I put down the package
-Choice/47/disabled_text,
-Text/48/text,"As soon as I put it down, I felt somewhat freer and stretch a bit."
-Choice/49/text,I kept the package in my arms
-Choice/49/disabled_text,
-Text/4a/text,I decide to continue carrying the package to prevent myself or someone else from tripping over it.
-Text/4b/text,"„Welcome to Autohaus KING, where we make driving a real experience.“"
-Text/4c/text,"I jump as the salesman suddenly walks past me and stands in front of me. In doing so, he trips over the package. After a brief stumble, he regains his balance and starts talking."
-Text/4d/text,I pick up the package again and notice that the salesman is making sure he is visible.
-Text/4e/text,I jump as the salesman suddenly walks past me and stands in front of me. He makes sure the package does not cover him too much.
-Text/4f/text,"„I'm your man today, not just any salesman, but your friend who wants to sell you only the best of the best.“"
-Text/50/text,"I am about to say something, but the salesman is already pointing at a red sports car."
-Text/51/text,"„That is your car, the latest model that you can pay for in installments. But wait, I can see that's not your thing. But don't worry, I'll find the perfect car for you.“"
-Text/52/text,"I open my mouth to say something, but he interrupts me right away."
-Text/53/text,„These days there are so many cars and uncertainties. You clearly belong to the type of people who want it a little safer. Just follow me..“
-Text/54/text,"I follow him reluctantly, but I don't want to be rude either. This is at least my chance to say something!"
-Text/55/text,„I am actually here because of the package. It's for a Mr. Akuban.“
-Text/56/text,"„Of course, you are a delivery person. Then I have the perfect vehicle for you.“"
-Text/57/text,I sigh quietly and clear my throat. This can't be true! I just want to deliver the package!
-Text/58/text,"„This is our compact car. Very handy, a bit older, but it has all the tires and has always been serviced in the workshop. Exactly the right car for you. Look at the price. A real bargain!“"
-Text/59/text,I look at the price and hesitate for a moment.
-Choice/5a/text,I think I'll take the car!
-Choice/5a/disabled_text,
-Text/5b/text,„Then I might as well drive to Mr. Akuban's with it!“
-Text/5c/text,The salesman suddenly smiled broadly as soon as I agreed.
-Text/5d/text,"„Wonderful, then we can conclude the contract right away!“"
-Text/5e/text,"Barely out of the office, I suddenly feel much worse. I now have the address and my own car, but something in me says I will regret it in the next few years. Is it because of the strange fine print?"
-Text/5f/text,"Although I now have a car, I can't use it. Apparently, the salesman wants to take the car back to the workshop again, so I have to walk to the bar."
-Choice/60/text,I won't take the car.
-Choice/60/disabled_text,
-Text/61/text,"„Thanks, but I'm not interested in the car.“"
-Text/62/text,"„Okay, then maybe-"""
-Text/63/text,„NO!“
-Text/64/text,"„I'm not interested in the car, but I need to find Mr. Akuban. Can you tell me where he is or do you not know him?"""
-Text/65/text,The salesman purses his lips and lets out a heavy sigh.
-Text/66/text,„Are you really not willing to buy a car?“
-Text/67/text,"„Listen, if this keeps going on like this...!“"
-Text/68/text,"He quickly raises his hands and puts on his brightest smile. In that moment, I feel the overwhelming desire to wipe it off his face."
-Text/69/text,"„Mr. Akuban is a good friend. He works at the bar which is not very far from here. A good man, that guy. Say hello to him from me. You just go straight from here and take the third left. You can't miss the bar.“"
-Text/6a/text,„Thank you very much.“
-Text/6b/text,I said goodbye and felt very relieved to be getting away from this man. Buying a car had suddenly become much less attractive than I had thought.
-Text/6c/text,"WIP
-(You won the sorting game)"
-Text/6d/text,"I decided to approach the bartender and ask for Mr. Akuban. The closer I got to the bar, the more unsure I became."
-Text/6e/text,"„Shut up, Ciper, drink your crap and get lost.“"
-Text/6f/text,"The bartender said, and I flinched slightly. I sat down at the bar and placed the package as close to me as possible."
-Text/70/text,"„What do you want here, kiddo??“"
-Text/71/text,„I'm looking for a Mr. Akuban... so...“
-Text/72/text,I was interrupted as the bartender looked at me with a cold and downright creepy gaze.
-Text/73/text,"„Get out of here, you have no business here.“"
-Text/74/text,I quickly understood that he didn't want to talk to me. So I had to make sure he would talk to me!
-Text/75/text,Mr. Akuban seemed much friendlier all of a sudden after I made an effort to show him that I was serious.
-Text/76/text,"„They call me Boris here. Drop the 'Mr.' What do you want, kiddo?“"
-Text/77/text,"„I'm here because of the package, it's for you..“"
-Text/78/text,"I pushed the package over to him and after he had inspected and unpacked it, he looked at me for a while. Finally, he slammed his hand on the counter, which completely confused me."
-Text/79/text,„Damn witch! Wait a minute.“
-Text/7a/text,"He said and disappeared shortly after. When he came back, he had a small card and a note with him. The note had an address and directions, while the card was clearly a birthday card."
-Text/7b/text,"„I would be very grateful if you could bring my niece's gift. Actually, I didn't want to take the witch's gift, but since you made an effort to earn my respect, I'll turn a blind eye."""
-Text/7c/text,"He seemed sulky, but continued speaking."
-Text/7d/text,"„My niece has her birthday today... please let her know that I'll come by later. Unfortunately, I have to stay in this place longer today.“"
-Text/7e/text,"I was surprised by his words and couldn't possibly refuse. Boris wasn't a bad guy, and since I had already taken the whole way, I might as well go the last few meters."
-Text/7f/text,I packed the gift and the card and said goodbye to the group.
-Text/80/text,"„Get lost."""
-Text/81/text,"As I finally reached the bar, the smell of alcohol and smoke hit me, and I noticed some of the guests staring at me."
-Text/82/text,"""Hey don't touch it."""
-Text/83/text,Maybe he will talk to me when I help him.
-Text/84/text,"""Hey Boris can I help you out by sorting the shelf?"""
-Text/85/text,"""Fine. If you sort them well I will awnser any question your have."""
-Text/86/text,What is your name?,Wie lautet dein Name?
-Text/87/text,"I am actually glad that I don't have to carry the big package anymore, but only the gift and the attached card. That makes things much easier!"
-Text/88/text,"Slowly but surely, I approach the address. I hear children's laughter, but also a few screams of joy. Children can be very peculiar at times."
-Text/89/text,"After I reach the house, I see how much is decorated. Children are running around, but one of the children looks particularly sad and is standing around watching the others."
-Text/8a/text,I approach the girl who looks at me questioningly.
-Text/8b/text,"„So, I don't know you.“"
-Text/8c/text,„I'm {mc}. I'm here because I have a very important delivery for the birthday girl!“
-Text/8d/text,"„I'm the birthday girl, I'm Lara and I'm already 7 years old today.“"
-Text/8e/text,"Proudly, the girl raises her hands to show the number on her fingers. Instantly, she looks at the gift and seems very excited."
-Text/8f/text,"„Your uncle and aunt both wanted me to deliver this to you, and your uncle even gave me a card for you. Unfortunately, he will be a little late.“"
-Text/90/text,"„As long as he comes, it's not a problem!“"
-Text/91/text,„Is this... the gift they chose for me?“
-Text/92/text,I see how the girl keeps looking at the wrapped gift and hand her the package along with the card.
-Text/93/text,Thank you so much! You saved my birthday!
-Text/94/text,"The girl hurries to unwrap the present, and a teddy bear comes into view which she hugs tightly. It doesn't take long before she runs off and is more excited than any other child. I am very happy to see her like that, and don't regret taking the package from Mia."
-Text/95/text,"„Isn't that you, {mc}?“"
-Text/96/text,"„Mia, what are you doing here?“"
-Text/97/text,„I t- t- told you I was invited to a birthday party. And you? Did you succeed with the package?“
-Text/98/text,"I nod, and suddenly I hear a honk. I look with Mia to the entrance and see the vendor getting out of a car. I can also see Boris. He goes straight to Lara, who greets him."
-Text/99/text,"„Wait, does that mean... Oh no, I'm so sorry, {mc}, I didn't know...“"
-Text/9a/text,I shake my head and smile.
-Text/9b/text,"„Don't worry. Today, at least, I wasn't bored. And you know what? I think we can definitely do things together more often and solve your problem with your ex.“"
-Text/9c/text,"I don't know why, but I have the feeling that something has changed in me through this small delivery, and I want to continue this change!"
-Text/9d/text,"I am actually glad that I don't have to carry the big package anymore, but only the gift and the attached card. That makes things much easier!"
-Text/9e/text,"Slowly but surely, I approach the address. I hear children's laughter, but also a few screams of joy. Children can be very peculiar at times."
-Text/9f/text,"After I reach the house, I see how much is decorated. Children are running around, but one of the children looks particularly sad and is standing around watching the others."
-Text/a0/text,I approach the girl who looks at me questioningly.
-Text/a1/text,"„So, I don't know you.“"
-Text/a2/text,„I'm {mc}. I'm here because I have a very important delivery for the birthday girl!“
-Text/a3/text,"„I'm the birthday girl, I'm Lara and I'm already 7 years old today.“"
-Text/a4/text,"Proudly, the girl raises her hands to show the number on her fingers. Instantly, she looks at the gift and seems very excited."
-Text/a5/text,"„Your uncle and aunt both wanted me to deliver this to you, and your uncle even gave me a card for you. Unfortunately, he will be a little late.“"
-Text/a6/text,"„As long as he comes, it's not a problem!“"
-Text/a7/text,„Is this... the gift they chose for me?“
-Text/a8/text,I see how the girl keeps looking at the wrapped gift and hand her the package along with the card.
-Text/a9/text,Thank you so much! You saved my birthday!
-Text/aa/text,"The girl hurries to unwrap the present, and a teddy bear comes into view which she hugs tightly. It doesn't take long before she runs off and is more excited than any other child. I am very happy to see her like that, and don't regret taking the package from Mia."
-Text/ab/text,"„Isn't that you, {mc}?“"
-Text/ac/text,"„Miu, what are you doing here?“"
-Text/ad/text,„I t- t- told you I was invited to a birthday party. And you? Did you succeed with the package?“
-Text/ae/text,I nod and suddenly hear a honk. I look with Mia to the entrance and see the vendor getting out of my car. I can also see Boris. He goes straight to Lara who greets him.
-Text/af/text,I shake my head and smile.
-Text/b0/text,"„Wait, does that mean... Oh no, I'm so sorry, {mc}, I didn't know...“"
-Text/b1/text,"„Don't worry. Today, at least, I wasn't bored. And you know what? I think we can definitely do things together more often and solve your problem with your ex.“"
-Text/b2/text,"I don't know why, but I have the feeling that something has changed in me through this small delivery, and I want to continue this change!"
-Text/b3/text,The only thing I would still like to avoid is buying a car from that sleazy car dealer. It's constantly breaking down!
+"keys","en","de"
+"Text/11/text","There is nothing special in the trash can.","Es ist nichts im Eimer."
+"Text/12/text","There is nothing special in the trash can, but the sound seems to be coming from behind it.","Es ist nichts im Eimer, aber das Geräusch scheint von dahinter zu kommen."
+"Text/13/text","„The sound comes from outside.""","„Das Geräusch kommt von draußen.“"
+"Text/14/text","The gate is locked.","Das Tor ist verschlossen."
+"Text/15/text","The gate is locked.",
+"Text/16/text","„The noise doesn't seem to come from there anyway.""",
+"Text/17/text","„She should be at home. I prefer to give it to her personally.""",
+"Text/18/text","„The sound is not coming from here.""",
+"Text/19/text","„Sorry phone, can't talk now, I've got places to be!""","„Hey Handy, jetzt passt es gar nicht, ich muss los!“"
+"Text/1a/text","....","…"
+"Text/1b/text","„I have no time!""","„Nicht jetzt!“"
+"Text/1c/text","„Okay, okay...""","„Na gut, na gut…“"
+"Text/1d/text","„Hey, I'm in a hurry. Just a moment.""","„Hey, ich habe es eilig. Einen Moment bitte.“"
+"Text/1e/text","I'm on the phone with my best friend. We wanted to go for a walk in the city today and talk a bit.
+As I leave the apartment complex, I hear a strange noise.",
+"Text/1f/text","„I'm sorry, but I can't make it today. I just received a visit from my parents. We will have to postpone it until next time.""",
+"Text/20/text","I bite my lip. This is the third time now that my best friend has canceled. I want to say something...but we're best friends!",
+"Choice/21/text","But I have to say something!",
+"Choice/21/disabled_text",,
+"Text/22/text","„Uh, do you know...""",
+"Text/23/text","„Yes, I'll be right there! What's the matter, {mc}?""",
+"Text/24/text","I sigh softly and shake my head.",
+"Text/25/text","„No, no... all good.""",
+"Choice/26/text","I choose to remain silent.",
+"Choice/26/disabled_text",,
+"Text/27/text","„I'm really sorry, but tomorrow is definitely the day!""",
+"Text/28/text","I hear that she's sorry, but I still hesitate. Tomorrow, I was actually planning to take a break and have some time for myself...",
+"Text/29/text","„Alright then, see you tomorrow!""",
+"Text/2a/text","„Yes,  tomorrow then. Well, have a good day!""",
+"Text/2b/text","I agree hurriedly and after a brief farewell, I feel a bit frustrated. Strange noises don't improve my mood, and I turn in the direction they're coming from.",
+"Text/2c/text","„What is that?""",
+"Text/2d/text","After taking a few steps towards the package and examining it more closely, I discover that it's ripped open and contains a gift. After carefully examining the package, I'm able to decipher the address and recipient name.",
+"Text/2e/text","„Oh, Ak…b..n... oh, this is surely for Mrs. Akoban. Since I have nothing to do today, I can bring it to her right away.""",
+"Text/2f/text","I pick up the package and set off. I'm sure I can bring some joy to my neighbor. After the breakup with her ex, he seemed to retaliate with childish behavior by not delivering her mail properly.",
+"Text/30/text","„Hello {mc}, nice to see you. Since when do you deliver packages?“",
+"Text/31/text","I notice how she glances at the package and is visibly surprised. 
+As soon as we make brief eye contact, she turns away hurriedly and tries to look at the package.",
+"Text/32/text","„... uhm“",
+"Text/33/text","„Hi Miu, the package is for you. It was by the trash cans...“",
+"Text/34/text","I explain slowly and see how she hesitantly approaches. She takes the package and looks at the address before shaking her head and peering inside.",
+"Text/35/text","„That's not mine. I think it belongs to Mr. Akuban. He moved away quite some time ago, and there have been mix-ups with our last names before.“",
+"Text/36/text","I nod slowly in understanding and have to strain myself to continue listening to her.
+She always speaks a little quieter than the others.",
+"Text/37/text","„Then you can probably bring it to him. I don't know him..“",
+"Text/38/text","My neighbor shakes her head.",
+"Text/39/text","„I'd like to, but I don't know anything more than his last name. But it would be a shame if he didn't get his package today...""",
+"Text/3a/text","„I heard his wife left him... Maybe I shouldn't go to the birthday party today and try to find him instead..“",
+"Choice/3b/text","I could take care of it. After all, I don't have anything planned.",
+"Choice/3b/disabled_text",,
+"Choice/3c/text","I don't actually plan on delivering the package.",
+"Choice/3c/disabled_text",,
+"Text/3d/text","It's better if I slowly withdraw.",
+"Text/3e/text","„Miu, I have to go now.“",
+"Text/3f/text","„O- o- of course, see you later, {mc}.“",
+"Text/40/text","I see Miu weakly lift her hand, take out her phone and start typing. She's clearly down, and I feel very guilty.",
+"Text/41/text","I turn around and clenche my fists. Miu has been through enough.\",
+"Text/42/text","She should think of herself today.",
+"Text/43/text","I turn around and walk towards Miu, who blinks in surprise.",
+"Text/44/text","„Leave it to me. I have nothing planned today, and if he's that well-known, it should be possible to find him quickly.“",
+"Text/45/text","Miu beams from ear to ear.",
+"Text/46/text","„Thank you so much, {mc}. I heard an old friend of his sells cars on Lessing street. Maybe he can help you more. But is this really okay for you?“",
+"Text/47/text","„Yes, of course. ""I'll go now.“",
+"Text/48/text","I take the package back and feel her touch my arm gently. I look up at her, and she quickly withdraws her hand.",
+"Text/49/text","„I'm sorry for burdening you with this. I know you're busy too.“",
+"Text/4a/text","I smile gratefully and walk away.",
+"Text/4b/text","It's always clear to me that Miu is a very attentive person. That's why I don't want to burden her with anything more.",
+"Text/4c/text","She's always considerate of others, and today she deserves to have a nice day. Actually, I can't take much off her plate, even though she's always so accommodating as a neighbor.",
+"Text/4d/text","Delivering a package is an easy task, after all.",
+"Text/4e/text","As soon as I arrive, I spot a few cars that are clearly not in my price range. Nonetheless, I can't take my eyes off some of them.
+The package is getting heavier and I wonder if I should put it down.",
+"Choice/4f/text","I put down the package",
+"Choice/4f/disabled_text",,
+"Text/50/text","As soon as I put it down, I felt somewhat freer and stretch a bit.",
+"Choice/51/text","I keep the package in my arms",
+"Choice/51/disabled_text",,
+"Text/52/text","I decide to continue carrying the package to prevent myself or someone else from tripping over it.",
+"Text/53/text","„Welcome to Autohaus KING, where we make driving a real experience.“",
+"Text/54/text","I jump as the salesman suddenly walks past me and stands in front of me. In doing so, he trips over the package. After a brief stumble, he regains his balance and starts talking.",
+"Text/55/text","I pick up the package again and notice that the salesman is making sure he is visible.",
+"Text/56/text","I jump as the salesman suddenly walks past me and stands in front of me. He makes sure the package does not cover him too much.",
+"Text/57/text","„I'm Carson Colinski, your man today. I'm not just any salesman. I'm your friend who wants to offer you only the best of the best.“",
+"Text/58/text","I am about to say something, but the salesman is already pointing at a red sports car.",
+"Text/59/text","„That is your car, the latest model that you can pay for in installments. But wait, I can see that's not your thing. But don't worry, I'll find the perfect car for you.“",
+"Text/5a/text","I open my mouth to say something, but he interrupts me right away.",
+"Text/5b/text","„These days there are so many cars and uncertainties. You clearly belong to the type of people who want it a little safer. Just follow me..“",
+"Text/5c/text","I follow him reluctantly, but I don't want to be rude either. This is at least my chance to say something!",
+"Text/5d/text","„I am actually here because of the package. It's for a Mr. Akuban.“",
+"Text/5e/text","„Of course, you are a delivery person. Then I have the perfect vehicle for you.“",
+"Text/5f/text","I sigh quietly and clear my throat. This can't be true! I just want to deliver the package!",
+"Text/60/text","„This is our compact car. Very handy, a bit older, but it has all the tires and has always been serviced in the workshop. Exactly the right car for you. Look at the price. A real bargain!“",
+"Text/61/text","I look at the price and hesitate for a moment.",
+"Choice/62/text","I think I'll take the car!",
+"Choice/62/disabled_text",,
+"Text/63/text","„Then I might as well drive to Mr. Akuban's with it!“",
+"Text/64/text","The salesman suddenly smiles broadly as soon as I agree.",
+"Text/65/text","„Wonderful, then we can conclude the contract right away!“",
+"Text/66/text","Barely out of the office, I suddenly feel much worse. I now have the address and my own car, but something in me says I will regret it in the next few years. Is it because of the strange fine print?",
+"Text/67/text","Although I now have a car, I can't use it. Apparently, the salesman wants to take the car back to the workshop again, so I will have to walk to the bar.",
+"Choice/68/text","I won't take the car.",
+"Choice/68/disabled_text",,
+"Text/69/text","„Thanks, but I'm not interested in the car.“",
+"Text/6a/text","„Okay, then maybe-""",
+"Text/6b/text","„NO!“",
+"Text/6c/text","„I'm not interested in the car, but I need to find Mr. Akuban. Can you tell me where he is or do you not know him?""",
+"Text/6d/text","The salesman purses his lips and lets out a heavy sigh.",
+"Text/6e/text","„Are you really not willing to buy a car?“",
+"Text/6f/text","„Listen, if this keeps going on like this...!“",
+"Text/70/text","He quickly raises his hands and puts on his brightest smile. In that moment, I feel the overwhelming desire to wipe it off his face.",
+"Text/71/text","„Mr. Akuban is a good friend. He works at the bar which is not very far from here. A good man, that guy. Say hello to him from me. You just go straight from here and take the first right. You can't miss the bar.“",
+"Text/72/text","„Thank you very much.“",
+"Text/73/text","I said goodbye and felt very relieved to be getting away from this man. Buying a car had suddenly become much less attractive than I had  previously thought.",
+"Text/74/text","WIP
+(You won the sorting game)",
+"Text/75/text","I decided to approach the bartender and ask for Mr. Akuban. The closer I got to the counter, the more unsure I became.",
+"Text/76/text","„We have not opened yet. Come back later..“",
+"Text/77/text","I decided to approach the bartender and ask for Mr. Akuban. The closer I got to the counter, the more unsure I became.",
+"Text/78/text","„Shut up, Ciper, drink your crap and get lost.“",
+"Text/79/text","The bartender shouts, and I flinched slightly. I sit down at the bar and plac the package as close to me as possible.",
+"Text/7a/text","„What do you want here, kiddo??“",
+"Text/7b/text","„I'm looking for a Mr. Akuban... so...“",
+"Text/7c/text","I got interrupted as the bartender looks at me with a cold and downright creepy gaze.",
+"Text/7d/text","„Get out of here, you have no business here.“",
+"Text/7e/text","I quickly realize that he doesn't want to talk to me. So I have to make sure he will talk to me!",
+"Text/7f/text","„Get lost.""",
+"Text/80/text","Mr. Akuban seems much friendlier all of a sudden after I made an effort to show him that I am serious.",
+"Text/81/text","„They call me Boris here. Drop the 'Mister' What do you want, kiddo?“",
+"Text/82/text","„I'm here because of the package, it's for you..“",
+"Text/83/text","I push the package over to him and after he had inspected and unpacked it, he looks at me for a while. Finally, he slams his hand on the counter, which completely confuses me.",
+"Text/84/text","„Damn witch! Wait a minute.“",
+"Text/85/text","He says and disappears shortly after. After he come back, he has a small card and a note with him. The note has an address and directions, while the card is clearly a birthday card.",
+"Text/86/text","„I would be very grateful if you could bring my niece's gift. Actually, I didn't want to take the witch's gift, but since you made an effort to earn my respect, I'll turn a blind eye.""",
+"Text/87/text","He seemed sulky, but continues speaking.",
+"Text/88/text","„My niece has her birthday today... please let her know that I'll come by later. Unfortunately, I have to stay in this place longer today.“",
+"Text/89/text","I am surprised by his words and couldn't possibly refuse.",
+"Text/8a/text","Boris isn't a bad guy, and since I had already taken the whole way, I might as well go the last few meters.",
+"Text/8b/text","I pack the gift and the card and say goodbye to the group.",
+"Text/8c/text","As I finally reached the bar, the smell of alcohol and smoke hit me, and I noticed some of the guests staring at me.",
+"Text/8d/text","„Thank you. It looks much better now!“",
+"Text/8e/text","""Hey don't touch my stuff!""",
+"Text/8f/text","Maybe he will talk to me when I help him.",
+"Text/90/text","""Hey Boris can I help you out by sorting the shelf?""",
+"Text/91/text","""Fine. If you sort them properly, I might be willing to help you.""",
+"Text/92/text","What is your name?","Wie ist dein Name?"
+"Text/93/text","I am actually glad that I don't have to carry the big package anymore, but only the gift and the attached card. That makes things much easier!",
+"Text/94/text","Slowly but surely, I approach the address. I hear children's laughter, but also a few screams of joy. Children can be very peculiar at times.",
+"Text/95/text","After I reaching the house, I see how much it is decorated.
+Children are running around, but one of the them looks particularly sad and is standing around watching the others.",
+"Text/96/text","I approach the girl who looks at me questioningly.",
+"Text/97/text","„So, I don't know you.“",
+"Text/98/text","„I'm {mc}. I'm here because I have a very important delivery for the birthday girl!“",
+"Text/99/text","„I'm the birthday girl, I'm Lara and I became 7 years old today.“",
+"Text/9a/text","Proudly, the girl raises her hands to show the number on her fingers. Instantly, she looks at the gift and seems very excited.",
+"Text/9b/text","„Your uncle and aunt both wanted me to deliver this to you, and your uncle even sent a card  along with it.“",
+"Text/9c/text","„As long as he comes, it's not a problem!“",
+"Text/9d/text","„Is this... the present they got for me?“",
+"Text/9e/text","I see how the girl keeps looking at the wrapped gift and hand her the package as well as the card.",
+"Text/9f/text","„Thank you so much! You saved my birthday!“",
+"Text/a0/text","The girl hurries to unwrap the present, and a teddy bear comes into view which she hugs tightly.
+It doesn't take long before she runs off and is more excited than any other child. I am very happy to see her like that, and don't regret taking the package from Miu.",
+"Text/a1/text","„Come with me, my new best friend!“",
+"Text/a2/text","„Isn't that you, {mc}?“",
+"Text/a3/text","„Miu, what are you doing here?“",
+"Text/a4/text","„I t- t- told you I was invited to a birthday party. And you? Did you succeed with the package?“",
+"Text/a5/text","I nod, and suddenly I hear a honk. I look with Miu to the entrance and see the vendor getting out of a car. I can also see Boris. He goes straight to Lara, who greets him.",
+"Text/a6/text","„Wait, does that mean... Oh no, I'm so sorry, {mc}, I didn't know...“",
+"Text/a7/text","I shake my head and smile.",
+"Text/a8/text","„Don't worry. Today, at least, I wasn't bored. And you know what? I think we can definitely do things together more often and solve your problem with your ex.“",
+"Text/a9/text","I don't know why, but I have the feeling that something has changed in me through this small delivery, and I want to continue this change!",
+"Text/aa/text","I am actually glad that I don't have to carry the big package anymore, but only the gift and the attached card. That makes things much easier!",
+"Text/ab/text","Slowly but surely, I approach the address. I hear children's laughter, but also a few screams of joy. Children can be very peculiar at times.",
+"Text/ac/text","After I reaching the house, I see how much it is decorated.
+Children are running around, but one of the them looks particularly sad and is standing around watching the others.",
+"Text/ad/text","I approach the girl who looks at me questioningly.",
+"Text/ae/text","„So, I don't know you.“",
+"Text/af/text","„I'm {mc}. I'm here because I have a very important delivery for the birthday girl!“",
+"Text/b0/text","„I'm the birthday girl, I'm Lara and I became 7 years old today.“",
+"Text/b1/text","Proudly, the girl raises her hands to show the number on her fingers. Instantly, she looks at the gift and seems very excited.",
+"Text/b2/text","„Your uncle and aunt both wanted me to deliver this to you, and your uncle even sent a card  along with it.“",
+"Text/b3/text","„As long as he comes, it's not a problem!“",
+"Text/b4/text","„Is this... the present they got for me?“",
+"Text/b5/text","I see how the girl keeps looking at the wrapped gift and hand her the package as well as the card.",
+"Text/b6/text","„Thank you so much! You saved my birthday!“",
+"Text/b7/text","The girl hurries to unwrap the present, and a teddy bear comes into view which she hugs tightly.
+It doesn't take long before she runs off and is more excited than any other child. I am very happy to see her like that, and don't regret taking the package from Miu.",
+"Text/b8/text","„Come with me, my new best friend!“",
+"Text/b9/text","„Isn't that you, {mc}?“",
+"Text/ba/text","„Miu, what are you doing here?“",
+"Text/bb/text","„I t- t- told you I was invited to a birthday party. And you? Did you succeed with the package?“",
+"Text/bc/text","I nod and suddenly hear a honk. I look with Miu to the entrance and see the vendor getting out of my car. I can also see Boris. He goes straight to Lara who greets him.",
+"Text/bd/text","I shake my head and smile.",
+"Text/be/text","„Wait, does that mean... Oh no, I'm so sorry, {mc}, I didn't know...“",
+"Text/bf/text","„Don't worry. Today, at least, I wasn't bored. And you know what? I think we can definitely do things together more often and solve your problem with your ex.“",
+"Text/c0/text","I don't know why, but I have the feeling that something has changed in me through this small delivery, and I want to continue this change!",
+"Text/c1/text","The only thing I would still like to avoid is buying a car from that sleazy car dealer. It's constantly breaking down!",

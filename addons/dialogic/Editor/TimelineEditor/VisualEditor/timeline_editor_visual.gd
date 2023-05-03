@@ -23,7 +23,8 @@ signal timeline_loaded
 ## 				 TIMELINE LOADING
 ################################################################################
 var _batches := []
-var _building_timeline := true
+var _building_timeline := false
+var _timeline_changed_while_loading := false
 
 
 ################################################################################
@@ -72,13 +73,17 @@ func save_timeline() -> void:
 	get_parent().current_resource_state = DialogicEditor.ResourceStates.Saved
 	get_parent().editors_manager.resource_helper.rebuild_timeline_directory()
 	
-	## Also save sidebar size
-	ProjectSettings.set_setting('dialogic/editor/visual_timeline_editor_sidebar', %RightSidebar.size.x)
 
 
 func load_timeline(resource:DialogicTimeline) -> void:
+	if _building_timeline:
+		_timeline_changed_while_loading = true
+		await batch_loaded
+		_timeline_changed_while_loading = false
+		_building_timeline = false
+	
 	clear_timeline_nodes()
-	_building_timeline = true
+	
 	if get_parent().current_resource.events.size() == 0:
 		pass
 	else: 
@@ -91,6 +96,7 @@ func load_timeline(resource:DialogicTimeline) -> void:
 		var page := 1
 		var batch_size := 10
 		_batches = []
+		_building_timeline = true
 		while batch_events(data, batch_size, page).size() != 0:
 			_batches.append(batch_events(data, batch_size, page))
 			page += 1
@@ -119,18 +125,22 @@ func load_batch(data:Array) -> void:
 	batch_loaded.emit()
 
 func _on_batch_loaded():
+	if _timeline_changed_while_loading:
+		return
 	if _batches.size() > 0:
 		indent_events()
 		await get_tree().process_frame
 		load_batch(_batches)
-	else:
-		if opener_events_stack:
-			for ev in opener_events_stack:
-				create_end_branch_event(%Timeline.get_child_count(), ev)
-		opener_events_stack = []
-		indent_events()
-		_building_timeline = false
-		add_extra_scroll_area_to_timeline()
+		return
+	
+	if opener_events_stack:
+		for ev in opener_events_stack:
+			create_end_branch_event(%Timeline.get_child_count(), ev)
+	opener_events_stack = []
+	indent_events()
+	_building_timeline = false
+	add_extra_scroll_area_to_timeline()
+
 
 
 func clear_timeline_nodes():
@@ -153,6 +163,8 @@ func _ready():
 		%TimelineArea.get_theme_color("background_color", "CodeEdit")
 		
 	%TimelineArea.resized.connect(add_extra_scroll_area_to_timeline)
+	
+
 
 
 func load_event_buttons() -> void:
@@ -185,13 +197,13 @@ func load_event_buttons() -> void:
 		while event_resource.event_sorting_index < %RightSidebar.get_node("EventContainer/FlexContainer" + str(button.event_category)).get_child(max(0, button.get_index()-1)).resource.event_sorting_index:
 			%RightSidebar.get_node("EventContainer/FlexContainer" + str(button.event_category)).move_child(button, button.get_index()-1)
 	
-	# Margins
+	# Resize RightSidebar
 	var _scale := DialogicUtil.get_editor_scale()
 	%RightSidebar.custom_minimum_size.x = 50 * _scale
 	
-	$View.split_offset = -ProjectSettings.get_setting('dialogic/editor/visual_timeline_editor_sidebar', 200)
-	sidebar_collapsed = !%RightSidebar.size.y < 150*_scale
+	$View.split_offset = -200*_scale
 	_on_right_sidebar_resized()
+	
 
 ################################################################################
 ##				CLEANUP
@@ -665,13 +677,15 @@ func _add_event_button_pressed(event_resource:DialogicEvent):
 		at_index = %Timeline.get_child_count()
 	
 	var remove_event_index := 1
+	var resource := event_resource.duplicate()
+	resource._load_custom_defaults()
 	
 	TimelineUndoRedo.create_action("[D] Add "+event_resource.event_name+" event.")
 	if event_resource.can_contain_events:
-		TimelineUndoRedo.add_do_method(add_event_with_end_branch.bind(event_resource.duplicate(), at_index, true, true))
+		TimelineUndoRedo.add_do_method(add_event_with_end_branch.bind(resource, at_index, true, true))
 		TimelineUndoRedo.add_undo_method(remove_events_at_index.bind(at_index, 2))
 	else:
-		TimelineUndoRedo.add_do_method(add_event_node.bind(event_resource.duplicate(), at_index, true, true))
+		TimelineUndoRedo.add_do_method(add_event_node.bind(resource, at_index, true, true))
 		TimelineUndoRedo.add_undo_method(remove_events_at_index.bind(at_index, 1))
 	TimelineUndoRedo.commit_action()
 	
@@ -900,9 +914,9 @@ func _on_event_popup_menu_index_pressed(index:int) -> void:
 	indent_events()
 
 
-func _on_right_sidebar_resized() -> void:
+func _on_right_sidebar_resized():
 	var _scale := DialogicUtil.get_editor_scale()
-	if %RightSidebar.size.x < 150*_scale and !sidebar_collapsed:
+	if %RightSidebar.size.x < 160*_scale and !sidebar_collapsed:
 		sidebar_collapsed = true
 		for con in %RightSidebar.get_node('EventContainer').get_children():
 			if con.get_child_count() == 0:
@@ -913,7 +927,7 @@ func _on_right_sidebar_resized() -> void:
 				for button in con.get_children():
 					button.toggle_name(false)
 		
-	elif  %RightSidebar.size.x > 150*_scale and sidebar_collapsed:
+	elif %RightSidebar.size.x > 160*_scale and sidebar_collapsed:
 		sidebar_collapsed = false
 		for con in %RightSidebar.get_node('EventContainer').get_children():
 			if con.get_child_count() == 0:
