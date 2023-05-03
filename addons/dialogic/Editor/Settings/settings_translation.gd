@@ -26,12 +26,12 @@ func _ready() -> void:
 
 func refresh() -> void:
 	loading = true
-	%TransEnabled.button_pressed = DialogicUtil.get_project_setting('dialogic/translation/enabled', false)
+	%TransEnabled.button_pressed = ProjectSettings.get_setting('dialogic/translation/enabled', false)
 	%TranslationSettings.visible = %TransEnabled.button_pressed
-	%OrigLocale.set_value(DialogicUtil.get_project_setting('dialogic/translation/original_locale', TranslationServer.get_tool_locale()))
-	%TransMode.select(DialogicUtil.get_project_setting('dialogic/translation/file_mode', 1))
-	%TransFolderPicker.set_value(DialogicUtil.get_project_setting('dialogic/translation/translation_folder', ''))
-	%TestingLocale.set_value(DialogicUtil.get_project_setting('internationalization/locale/test', ''))
+	%OrigLocale.set_value(ProjectSettings.get_setting('dialogic/translation/original_locale', TranslationServer.get_tool_locale()))
+	%TransMode.select(ProjectSettings.get_setting('dialogic/translation/file_mode', 1))
+	%TransFolderPicker.set_value(ProjectSettings.get_setting('dialogic/translation/translation_folder', ''))
+	%TestingLocale.set_value(ProjectSettings.get_setting('internationalization/locale/test', ''))
 	loading = false
 
 
@@ -132,7 +132,6 @@ func update_csv_files() -> void:
 			csv_lines.clear()
 			old_csv_lines.clear()
 	
-	# update csv
 	if translation_mode == TranslationModes.PerProject:
 		var file_path :String = ProjectSettings.get_setting('dialogic/translation/translation_folder', 'res://').path_join('dialogic_translations.csv')
 		if FileAccess.file_exists(file_path):
@@ -143,10 +142,8 @@ func update_csv_files() -> void:
 		for line in csv_lines:
 			# in case there might be translations for this line already, 
 			# add them at the end again (orig locale text is replaced).
-			if line[0] in old_csv_lines and old_csv_lines[line[0]].size() > 2:
-				var new_line = line as PackedStringArray
-				new_line.append_array(old_csv_lines[line[0]].slice(2))
-				file.store_csv_line(new_line)
+			if line[0] in old_csv_lines:
+				file.store_csv_line(PackedStringArray(line)+old_csv_lines[line[0]].slice(2))
 				counts[2] += 1
 			else:
 				file.store_csv_line(line)

@@ -1,43 +1,43 @@
 Join seller (smoll) 3
-seller (pleased): „Welcome to Autohaus KING, where we make driving a real experience.“ #id:4b
+seller (pleased): „Welcome to Autohaus KING, where we make driving a real experience.“ #id:53
 if {location2.packet_dropped} == "true":
-	I jump as the salesman suddenly walks past me and stands in front of me. In doing so, he trips over the package. After a brief stumble, he regains his balance and starts talking. #id:4c
-	I pick up the package again and notice that the salesman is making sure he is visible. #id:4d
+	I jump as the salesman suddenly walks past me and stands in front of me. In doing so, he trips over the package. After a brief stumble, he regains his balance and starts talking. #id:54
+	I pick up the package again and notice that the salesman is making sure he is visible. #id:55
 else:
-	I jump as the salesman suddenly walks past me and stands in front of me. He makes sure the package does not cover him too much. #id:4e
-seller (default): „I'm Carson Colinski, your man today. I'm not just any salesman. I'm your friend who wants to offer you only the best of the best.“ #id:4f
-I am about to say something, but the salesman is already pointing at a red sports car. #id:50
-seller (pleased): „That is your car, the latest model that you can pay for in installments. But wait, I can see that's not your thing. But don't worry, I'll find the perfect car for you.“ #id:51
-mc: I open my mouth to say something, but he interrupts me right away. #id:52
-seller (default): „These days there are so many cars and uncertainties. You clearly belong to the type of people who want it a little safer. Just follow me..“ #id:53
-I follow him reluctantly, but I don't want to be rude either. This is at least my chance to say something! #id:54
-mc: „I am actually here because of the package. It's for a Mr. Akuban.“ #id:55
-seller (happy): „Of course, you are a delivery person. Then I have the perfect vehicle for you.“ #id:56
-I sigh quietly and clear my throat. This can't be true! I just want to deliver the package! #id:57
-seller (pleased): „This is our compact car. Very handy, a bit older, but it has all the tires and has always been serviced in the workshop. Exactly the right car for you. Look at the price. A real bargain!“ #id:58
-I look at the price and hesitate for a moment. #id:59
-- I think I'll take the car! #id:5a
-	mc: „Then I might as well drive to Mr. Akuban's with it!“ #id:5b
-	The salesman suddenly smiles broadly as soon as I agree. #id:5c
-	seller: „Wonderful, then we can conclude the contract right away!“ #id:5d
+	I jump as the salesman suddenly walks past me and stands in front of me. He makes sure the package does not cover him too much. #id:56
+seller (default): „I'm Carson Colinski, your man today. I'm not just any salesman. I'm your friend who wants to offer you only the best of the best.“ #id:57
+I am about to say something, but the salesman is already pointing at a red sports car. #id:58
+seller (pleased): „That is your car, the latest model that you can pay for in installments. But wait, I can see that's not your thing. But don't worry, I'll find the perfect car for you.“ #id:59
+mc: I open my mouth to say something, but he interrupts me right away. #id:5a
+seller (default): „These days there are so many cars and uncertainties. You clearly belong to the type of people who want it a little safer. Just follow me..“ #id:5b
+I follow him reluctantly, but I don't want to be rude either. This is at least my chance to say something! #id:5c
+mc: „I am actually here because of the package. It's for a Mr. Akuban.“ #id:5d
+seller (happy): „Of course, you are a delivery person. Then I have the perfect vehicle for you.“ #id:5e
+I sigh quietly and clear my throat. This can't be true! I just want to deliver the package! #id:5f
+seller (pleased): „This is our compact car. Very handy, a bit older, but it has all the tires and has always been serviced in the workshop. Exactly the right car for you. Look at the price. A real bargain!“ #id:60
+I look at the price and hesitate for a moment. #id:61
+- I think I'll take the car! #id:62
+	mc: „Then I might as well drive to Mr. Akuban's with it!“ #id:63
+	The salesman suddenly smiles broadly as soon as I agree. #id:64
+	seller: „Wonderful, then we can conclude the contract right away!“ #id:65
 	Leave seller
 	[wait time="1.2"]
-	mc: Barely out of the office, I suddenly feel much worse. I now have the address and my own car, but something in me says I will regret it in the next few years. Is it because of the strange fine print? #id:5e
-	mc: Although I now have a car, I can't use it. Apparently, the salesman wants to take the car back to the workshop again, so I will have to walk to the bar. #id:5f
+	mc: Barely out of the office, I suddenly feel much worse. I now have the address and my own car, but something in me says I will regret it in the next few years. Is it because of the strange fine print? #id:66
+	mc: Although I now have a car, I can't use it. Apparently, the salesman wants to take the car back to the workshop again, so I will have to walk to the bar. #id:67
 	VAR {auto} = "true"
-- I won't take the car. #id:60
-	mc: „Thanks, but I'm not interested in the car.“ #id:61
-	seller (default): „Okay, then maybe-" #id:62
-	mc: „NO!“ #id:63
-	mc: „I'm not interested in the car, but I need to find Mr. Akuban. Can you tell me where he is or do you not know him?" #id:64
-	The salesman purses his lips and lets out a heavy sigh. #id:65
-	seller (default): „Are you really not willing to buy a car?“ #id:66
-	mc: „Listen, if this keeps going on like this...!“ #id:67
-	He quickly raises his hands and puts on his brightest smile. In that moment, I feel the overwhelming desire to wipe it off his face. #id:68
-	seller (happy): „Mr. Akuban is a good friend. He works at the bar which is not very far from here. A good man, that guy. Say hello to him from me. You just go straight from here and take the first right. You can't miss the bar.“ #id:69
-	mc: „Thank you very much.“ #id:6a
+- I won't take the car. #id:68
+	mc: „Thanks, but I'm not interested in the car.“ #id:69
+	seller (default): „Okay, then maybe-" #id:6a
+	mc: „NO!“ #id:6b
+	mc: „I'm not interested in the car, but I need to find Mr. Akuban. Can you tell me where he is or do you not know him?" #id:6c
+	The salesman purses his lips and lets out a heavy sigh. #id:6d
+	seller (default): „Are you really not willing to buy a car?“ #id:6e
+	mc: „Listen, if this keeps going on like this...!“ #id:6f
+	He quickly raises his hands and puts on his brightest smile. In that moment, I feel the overwhelming desire to wipe it off his face. #id:70
+	seller (happy): „Mr. Akuban is a good friend. He works at the bar which is not very far from here. A good man, that guy. Say hello to him from me. You just go straight from here and take the first right. You can't miss the bar.“ #id:71
+	mc: „Thank you very much.“ #id:72
 	Leave seller
-	I said goodbye and felt very relieved to be getting away from this man. Buying a car had suddenly become much less attractive than I had  previously thought. #id:6b
+	I said goodbye and felt very relieved to be getting away from this man. Buying a car had suddenly become much less attractive than I had  previously thought. #id:73
 	VAR {auto} = "false"
 VAR {location2.completed} = "true"
 [signal arg="talked_seller"]
